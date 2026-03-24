@@ -6,32 +6,34 @@ Summary: Today we will help you with data visualization in Matplotlib, Seaborn, 
 
 ## Contents
 
-1. [Chapter I](#chapter-i) \
-    1.1. [Foreword](#foreword)
-2. [Chapter II](#chapter-ii) \
-    2.1. [Instructions](#instructions)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Specific instructions for the day](#specific-instructions-for-the-day)
-4. [Chapter IV Mandatory part](#chapter-iv-mandatory-part) \
-    4.1. [Exercise 00: Line chart](#exercise-00-line-chart)
-5. [Chapter V](#chapter-v) \
-    5.1. [Exercise 01: Line chart with styles](#exercise-01-line-chart-with-styles)
-6. [Chapter VI](#chapter-vi) \
-    6.1. [Exercise 02: Bar](#exercise-02-bar)
-7. [Chapter VII](#chapter-vii) \
-    7.1. [Exercise 03: Bar charts](#exercise-03-bar-charts)
-8. [Chapter VIII](#chapter-viii) \
-    8.1. [Exercise 04: Histogram](#exercise-04-histogram)
-9. [Chapter IX](#chapter-ix) \
-    9.1. [Exercise 05: Boxplot](#exercise-05-boxplot)
-10. [Chapter X](#chapter-X) \
-    10.1. [Part 1](#exercise-06-scatter-matrix)
-11. [Chapter XI Bonus part](#chapter-xi-bonus-part) \
-    11.1. [Exercise 07: Heatmap](#exercise-07-heatmap)
-12. [Chapter XII](#chapter-Xii) \
-    12.1. [Exercise 08: Seaborn](#exercise-08-seaborn)
-13. [Chapter XIII](#chapter-xiii) \
-    13.1. [Exercise 09: Plotly](#exercise-09-plotly)
+- [Pandas, SQL and Data Visualization](#pandas-sql-and-data-visualization)
+  - [Contents](#contents)
+  - [Chapter I](#chapter-i)
+    - [Foreword](#foreword)
+  - [Chapter II](#chapter-ii)
+    - [Instructions](#instructions)
+  - [Chapter III](#chapter-iii)
+    - [Specific instructions for the day](#specific-instructions-for-the-day)
+  - [Chapter IV Mandatory part](#chapter-iv-mandatory-part)
+    - [Exercise 00: Line chart](#exercise-00-line-chart)
+  - [Chapter V](#chapter-v)
+    - [Exercise 01: Line chart with styles](#exercise-01-line-chart-with-styles)
+  - [Chapter VI](#chapter-vi)
+    - [Exercise 02: Bar](#exercise-02-bar)
+  - [Chapter VII](#chapter-vii)
+    - [Exercise 03: Bar charts](#exercise-03-bar-charts)
+  - [Chapter VIII](#chapter-viii)
+    - [Exercise 04: Histogram](#exercise-04-histogram)
+  - [Chapter IX](#chapter-ix)
+    - [Exercise 05: Boxplot](#exercise-05-boxplot)
+  - [Chapter X](#chapter-x)
+    - [Exercise 06: Scatter Matrix](#exercise-06-scatter-matrix)
+  - [Chapter XI Bonus part](#chapter-xi-bonus-part)
+    - [Exercise 07: Heatmap](#exercise-07-heatmap)
+  - [Chapter XII](#chapter-xii)
+    - [Exercise 08: Seaborn](#exercise-08-seaborn)
+  - [Chapter XIII](#chapter-xiii)
+    - [Exercise 09: Plotly](#exercise-09-plotly)
     
    
 ## Chapter I
@@ -58,9 +60,19 @@ Looking at the characteristics alone can be misleading. Use graphs to better und
 
 ### Instructions
 
+How to study at “School 21”:
+- You’ll discover a unique educational experience here. It’s built around autonomy and freedom. You’re given a task and must complete it. During the course, delve deeper into the subject, solve problems, and use all available resources, including internet resources and AI tools like GigaChat, to find information. Be mindful of the quality of information: verify, critically think, analyze, compare. 
+- Peer-to-Peer (P2P) learning is a process in which students exchange knowledge and experiences, acting as mentors and students simultaneously. This allows you to learn not only from material but also from others. 
+- Don’t hesitate to seek help. Around you are peers who are also navigating this path for the first time. Likewise, don’t be afraid to respond to requests for help. Your experience is valuable and useful, so share it openly with others. Stay updated with the latest community announcements by joining Rocket.Chat. 
+- Your learning is meaningless if you just copy others’ solutions. When receiving help, make sure you understand the “why”, “how”, and “purpose” behind it. Don’t be afraid to make mistakes.
+- Does the task seem impossible? Take a break, get some fresh air and clear your mind—this has helped many people. After that the solution may come naturally to you.
+- The learning process is as important as the result. It’s not about solving a task; it’s about understanding HOW to solve it. 
+
+How to work with the project:
+
 * Use this page as your only reference. Do not pay attention to rumors or speculation about how to prepare your solution.
 * Here and throughout, we use Python 3 as the only correct version of Python.
-* The python files for python exercises (module01, module02, module03) must have the following block at the end: `if __name__ == ‘__main__’`.
+* The python files for python exercises (module01, module02, module03) must have the following block at the end: `if __name__ == '__main__'`.
 * Pay attention to the permissions of your files and directories.
 * To be assessed your solution must be in your GIT repository.
 * Your solutions will be evaluated by your peers in the bootcamp.
@@ -79,7 +91,7 @@ Looking at the characteristics alone can be misleading. Use graphs to better und
 * Use the Jupyter notebook to work with your code.
 * No imports are allowed except those mentioned in the "Authorized Functions" section of the title block of each exercise.
 * You can use any built-in function as long as it is not prohibited by the exercise.
-* Save and load all the required data in the subfolder data/.
+* Save and load all the required data in the subfolder `data/`.
 
 ## Chapter IV Mandatory part
 
@@ -148,12 +160,12 @@ Create a graph like this one:
 * Night is from 0:00:00 to 03:59:59, morning is from 04:00:00 to 09:59:59, afternoon is from 10:00:00 to 16:59:59, and evening is from 17:00:00 to 23:59:59.
 * Choose a palette you really enjoy. You do not have to replicate it from the graph above.
 * At the end of your Jupyter notebook, create a Markdown cell and insert the following questions:
-  - When do our users usually commit to the labs: in the night, morning, afternoon, or evening? The answer is the two most common periods.
-  - Which day has:  
-    - the most number of commits?  
-    - and at the same time, is the number of commits higher in the evening than in the afternoon?
+    - When do our users usually commit to the labs: in the night, morning, afternoon, or evening? The answer is the two most common periods.
+    - Which day has:
+        - the most number of commits?
+        - and at the same time, is the number of commits higher in the evening than in the afternoon?
 
-The answer is the date of that day.
+    The answer is the date of that day.
 
 ## Chapter VII
 
